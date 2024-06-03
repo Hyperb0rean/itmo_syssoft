@@ -1,0 +1,4 @@
+#!/bin/bash
+docker run --mount type=bind,source="$(pwd)"/linux_programming,target=/home/testuser \
+                -w /home/testuser \
+                 -it osll/mooc_linux_programming /bin/bash
